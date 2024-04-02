@@ -1,6 +1,6 @@
 app-id: page.codeberg.tpikonen.geobug
 runtime: org.gnome.Platform
-runtime-version: "45"
+runtime-version: "46"
 sdk: org.gnome.Sdk
 command: geobug
 rename-desktop-file: geobug.desktop
@@ -17,8 +17,8 @@ modules:
   - name: geobug
     sources:
       - type: archive
-        url: https://codeberg.org/tpikonen/geobug/archive/0.1.6.tar.gz
-        sha256: c6b40e960457d51f48ddc306e0a4511cc3f58bf46711287bbaa7a87f86ae4835
+        url: https://codeberg.org/tpikonen/geobug/archive/0.1.7.tar.gz
+        sha256: 137729ec5a8ff049478cd45be09d955ec2f8751f99fe4171e75d63413e1bac4e
     buildsystem: simple
     build-commands:
       - pip3 install --verbose --no-index --no-deps --no-build-isolation --prefix=${FLATPAK_DEST} ./
