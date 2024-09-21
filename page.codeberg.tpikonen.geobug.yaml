@@ -1,6 +1,6 @@
 app-id: page.codeberg.tpikonen.geobug
 runtime: org.gnome.Platform
-runtime-version: "46"
+runtime-version: "47"
 sdk: org.gnome.Sdk
 command: geobug
 rename-desktop-file: geobug.desktop
