@@ -17,8 +17,8 @@ modules:
   - name: geobug
     sources:
       - type: archive
-        url: https://codeberg.org/tpikonen/geobug/archive/0.1.8.tar.gz
-        sha256: 19781ee6156e1f8184296cf8b259c8842c6a01b56ff7f02276291ac7d12f9302
+        url: https://codeberg.org/tpikonen/geobug/archive/0.9.0.tar.gz
+        sha256: d2475dc4377e8e870a8df3dece7b917a461e222aa1365e263bd5d6757bc12a7b
     buildsystem: simple
     build-commands:
       - pip3 install --verbose --no-index --no-deps --no-build-isolation --prefix=${FLATPAK_DEST} ./
