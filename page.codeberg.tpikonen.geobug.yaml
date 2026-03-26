@@ -22,4 +22,3 @@ modules:
     buildsystem: simple
     build-commands:
       - pip3 install --verbose --no-index --no-deps --no-build-isolation --prefix=${FLATPAK_DEST} ./
-      - install -Dm644 data/appdata.xml $FLATPAK_DEST/share/metainfo/$FLATPAK_ID.appdata.xml
